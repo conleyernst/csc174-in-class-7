@@ -1,9 +1,3 @@
-/*
-@font-face{
-	font-family: Della;
-}
-@import url('https://fonts.googleapis.com/css?family=Della+Respira');*/
-
 
 /*
 	The main text used is Della Respira, described by Hubstop as being perfect "in an ancient fairy 
@@ -69,6 +63,8 @@ header, .hero, footer {
 
 	flex: 1 1 200px;
 	list-style-type: none;
+
+	background-color: #FFFCD9;
 }
 
 header{
@@ -79,11 +75,13 @@ header{
 
 body{
 	/* This background color resembles an old book, which is fitting for the content */
-	background-color: #ffffe6;
+	/*background-color: #ffffe6;*/
+	background-color: #994d00;
 	font-family: 'Della Respira', serif;
 	/* This  color resembles old ink on a page and provides contrast with the background, making
 	the text clear and readable */
 	color: #604020;
+	/*color: #994d00;*/
 }
 
 h1{
@@ -107,6 +105,7 @@ article {
 	border-color: #993399
     padding: 30px;
     margin: 25px;
+    background-color: #ffffe6;
 }
 
 aside {
@@ -115,6 +114,7 @@ aside {
 	border-color: #993399
     padding: 30px;
     margin: 25px;
+    background-color: #ffffe6;
 }
 
 footer {
@@ -124,6 +124,16 @@ footer {
     padding: 30px;
     margin: 25px;
     text-align: center;
+    background-color: #ffffe6;
+}
+
+.hero {
+	border: 7px;
+	border-style: solid;
+	border-color: #993399
+    padding: 30px;
+    margin: 25px;
+    background-color: #ffffe6;
 }
 
 
