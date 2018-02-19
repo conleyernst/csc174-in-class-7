@@ -1,3 +1,17 @@
+/*
+@font-face{
+	font-family: Della;
+}
+@import url('https://fonts.googleapis.com/css?family=Della+Respira');*/
+
+
+/*
+	The main text used is Della Respira, described by Hubstop as being perfect "in an ancient fairy 
+	tale or on your latest ebook cover". This highly legiable font is an easy way to add a medevil flair,
+	perfect for William Shakespeare.
+*/
+@import url('https://fonts.googleapis.com/css?family=Della+Respira');
+
 figure { float: right; }
 
 .container {
@@ -18,5 +32,14 @@ header, .hero, footer {
 .flowing-boxes li {
 	flex: 1 1 200px;
 	list-style-type: none;
+}
+
+body{
+	background-color: #4286f4;
+	/*font-family: 'Della Respira', serif;*/
+}
+
+p{
+	font-family: 'Della Respira', serif;
 }
 
