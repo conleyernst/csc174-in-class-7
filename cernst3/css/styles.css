@@ -10,6 +10,10 @@
 	tale or on your latest ebook cover". This highly legiable font is an easy way to add a medevil flair,
 	perfect for William Shakespeare.
 
+	Title font-face used is Niconne, an elegant and old fashion font. I chose to use it as the header 
+	because it looks like handwritten cursive (which is fitting for Shakespeare), but it is not as legiable
+	as the font used for the main content- making it a better fit for the header. 
+
 	source: https://blog.hubspot.com/marketing/28-free-fonts-beautify-content
 */
 @import url('https://fonts.googleapis.com/css?family=Della+Respira|Niconne');
@@ -38,15 +42,13 @@ header, .hero, footer {
 
 body{
 	background-color: #4286f4;
-	/*font-family: 'Della Respira', serif;*/
+	font-family: 'Della Respira', serif;
 }
 
-h1{
+h1, h2, h3{
 	background-color: #ccffcc;
 	font-family: 'Niconne', cursive;
 }
 
-p{
-	font-family: 'Della Respira', serif;
-}
+
 
