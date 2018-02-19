@@ -18,7 +18,10 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Della+Respira|Niconne');
 
-figure { float: right; }
+figure { 
+	float: right;
+	padding: 10px; 
+}
 
 .container {
 	display: grid;
@@ -27,6 +30,7 @@ figure { float: right; }
 
 header, .hero, footer {
 	grid-column: 1 / 3;
+	padding: 30px;
 }
 
 .flowing-boxes {
@@ -40,14 +44,34 @@ header, .hero, footer {
 	list-style-type: none;
 }
 
-body{
-	background-color: #4286f4;
-	font-family: 'Della Respira', serif;
+header{
+	background-color: #604020;
+	color: #ffffe6;
+	text-align: center;
 }
 
-h1, h2, h3{
-	background-color: #ccffcc;
+body{
+	/* This background color resembles an old book, which is fitting for the content */
+	background-color: #ffffe6;
+	font-family: 'Della Respira', serif;
+	/* This  color resembles old ink on a page and provides contrast with the background, making
+	the text clear and readable */
+	color: #604020;
+}
+
+h1{
 	font-family: 'Niconne', cursive;
+	color: #ffd11a;
+}
+
+h2, h3{
+	font-family: 'Niconne', cursive;
+	/* Slightly darker font for the titles to for emphasis*/
+	color: #392613;
+}
+
+.life {
+	background-color: #993399;
 }
 
 
