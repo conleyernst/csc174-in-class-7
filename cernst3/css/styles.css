@@ -10,6 +10,13 @@
 
 	source: https://blog.hubspot.com/marketing/28-free-fonts-beautify-content
 */
+
+/*
+	Other stylistic choices where to make each section of content to look like a paper, so it is both 
+	visually appealing and readable. Padding, borders, and margins where used to achieve this. 
+*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Della+Respira|Niconne');
 
 figure { 
@@ -24,36 +31,20 @@ figure {
 
 header, .hero, footer {
 	grid-column: 1 / 3;
-	/*padding: 30px;*/
 }
 
 .flowing-boxes {
 
-	/*border: 7px;
-	border-style: solid;
-	border-color: #993399
-    padding: 30px;
-    margin: 25px;*/
-
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding-left: 0;
+	padding-left: 0px;
 }
 .flowing-boxes li {
-
-	/*border: 7px;
-	border-style: solid;
-	border-color: #993399*/
-
 
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 10px;
-
-
-     /*30px;*/
-    /*margin: 25px;*/
 
     border: 2px;
 	border-style: dashed;
@@ -68,9 +59,16 @@ header, .hero, footer {
 }
 
 header{
+	border: 7px;
+	border-style: solid;
+	border-color: #993399
+    padding: 30px;
+    margin: 25px;
 	background-color: #604020;
+
 	color: #ffffe6;
 	text-align: center;
+	font-style: italic;
 }
 
 body{
@@ -81,12 +79,12 @@ body{
 	/* This  color resembles old ink on a page and provides contrast with the background, making
 	the text clear and readable */
 	color: #604020;
-	/*color: #994d00;*/
 }
 
 h1{
 	font-family: 'Niconne', cursive;
 	color: #ffd11a;
+	font-size: 60px;
 }
 
 h2, h3{
@@ -95,6 +93,15 @@ h2, h3{
 	color: #392613;
 	text-align: center;
 }
+
+h2{
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
 p{
 	padding: 25px;
 }
@@ -125,6 +132,11 @@ footer {
     margin: 25px;
     text-align: center;
     background-color: #ffffe6;
+    font-size: 11px;
+}
+
+footer h2 {
+	font-size: 25px;
 }
 
 .hero {
