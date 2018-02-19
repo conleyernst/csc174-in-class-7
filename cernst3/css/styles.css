@@ -68,10 +68,19 @@ h2, h3{
 	font-family: 'Niconne', cursive;
 	/* Slightly darker font for the titles to for emphasis*/
 	color: #392613;
+	text-align: center;
+}
+p{
+	padding: 25px;
 }
 
-.life {
-	background-color: #993399;
+article {
+	/*background-color: #993399;*/
+	border: 10px;
+	border-style: solid;
+	border-color: #993399
+    padding: 30px;
+    margin: 25px;
 }
 
 
